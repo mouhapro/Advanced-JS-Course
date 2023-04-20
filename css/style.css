@@ -1,0 +1,1256 @@
+body{
+    height: 5000px;
+    box-sizing: border-box;
+    
+    
+}
+/* body{
+    background-color: cornflowerblue;
+}
+ form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+    width: 400px;
+    justify-content: center;
+    position: relative;
+    left: 500px;
+    top: 800px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    
+ }
+label{
+    font-family: 'Spectral', serif;
+   font-size: 20px;
+    color: cornflowerblue;
+   font-weight: 500;
+   margin: 10px;
+    
+}
+input[type="password"]{
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+
+.hamadi{
+    margin: 15px;
+    color: #a3a0a0;
+    cursor: pointer;
+    text-align: center;
+}
+input[type="submit"]{
+    border: none;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.hidden {
+    display: none;
+    
+}
+
+
+
+input[type="text"]{
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+input[type="password"]:focus{
+    outline: none;
+}
+.hamaadi,.hamoushi,.amour{
+    margin-left: 10px;
+}
+
+.hamaadi{
+    color: #a3a0a0;
+    cursor: pointer;
+    width: 200px;
+}
+
+.hamaadi:hover{
+    border-bottom: 1px solid #a3a0a0;
+}
+
+.hamoushi{
+    color: #a3a0a0;
+    cursor: pointer;
+    width: 140px;
+}
+.hamoushi:hover{
+    border-bottom: 1px solid #a3a0a0;
+}
+.amour{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    
+}
+.haha{
+    color: rgb(255, 0, 0);
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.amour p{
+    color: rgb(255, 0, 0);
+}
+
+.amour p:hover{
+    border-bottom: 1px solid #ff0000;
+}
+
+
+.kiki{
+    display: none;
+}
+
+.hamadid{
+    animation-name: haha;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes haha {
+    from{transform: translate(0,0);opacity: 0;}
+    to {transform: translate(0,40px);opacity: 1;}
+
+}
+
+.kaka{
+    display: none;
+} */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+.mouhamed,.wided,.mabrouka{
+    width: 280px;
+    text-align: center;
+margin: 40px;
+background-color: skyblue;
+border-radius: 10px;
+}
+.wawa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 500px;
+    animation-name: haha;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;transition: 2s ease ;
+    
+}
+@keyframes haha {
+    from {
+    transform: translate(0,0); opacity: 0;   
+    }
+    to{
+        transform: translate(0,40px);opacity: 1;
+    }
+}
+.vivi{
+    display: none; 
+} */
+
+
+
+
+
+
+
+
+/* 
+.hamoush{
+    width: 550px;
+    border-radius: 10px;
+    animation-name: annimate;
+    position: relative;
+    top: 400px;
+    margin-left: 40px;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes annimate {
+    from{transform: translate(0,0);opacity: 0;}
+    to {
+        transform: translate(0,20px);opacity: 1;
+    }
+}
+.baba{
+    display: none;
+}
+
+
+ */
+
+
+
+
+
+
+/* 
+.wiwi{
+  position: fixed;
+  bottom: 20px;
+}
+
+
+
+.gaga{
+    display: none;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* .hamoush{
+    width: 350px;
+    position: relative;
+    top: 450px;
+    margin-left: 41px;
+}
+
+.hama{
+    width: 350px;
+    transition: 2s ease;
+
+} */
+
+
+/* 
+.hamousha{
+    display: none;
+}
+
+.mouhamed{
+    border: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    position: fixed;
+bottom: 50px;
+right: 50px;
+animation-name:hamaa ;
+animation-duration: 2s;
+}
+@keyframes hamaa{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+ */
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+
+ .hama{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+width: 400px; 
+margin: auto;
+text-align: center;
+
+animation-name: mouha;
+animation-duration: 1.5s;
+animation-fill-mode: forwards;
+}
+input[type="text"]{
+    margin: 20px;
+}
+span::before{
+    content: 'reseltat : ';
+}
+span{
+    background-color: aqua;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+input[type="submit"]{
+margin: 10px;
+background-color: royalblue;
+border: none;
+}
+ */
+
+ /* @keyframes mouha{
+    from {transform: translate(0,0);opacity: 0;}
+    to {transform: translate(0,30px);opacity: 1;}
+ }
+
+
+
+
+
+.hidden{
+    display: none;
+} */
+
+
+/* table,tr,th{
+margin: auto;
+padding: 40px;
+text-align: center;
+
+}
+ */
+
+
+
+/* 
+
+body{
+    background-color: cadetblue;
+}
+
+
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+   position: relative;
+   left: 450px;
+   margin-top: 30px;
+   background-color: white;
+   padding: 30px;
+   border-radius: 20px;
+}
+
+.principal h1{
+font-weight: 700;
+}
+
+input[type="text"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border: 1px solid #ccc;
+    height: 30px;
+}
+
+input[type="submit"]{
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    height: 30px;
+
+}
+
+
+
+
+
+.dexieume{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: flex-start;
+}
+
+
+.one{
+margin:30px ;
+background-color: white;
+width: 550px;
+padding: 10px;
+border-radius: 20px;
+
+
+}
+.two{
+    margin:30px ;
+    background-color: white;
+    width: 550px;
+    padding: 10px;
+    border-radius: 20px;
+    
+    
+    }
+.three{
+    margin:30px ;
+    background-color: white;
+    width: 550px;
+    padding: 10px;
+    border-radius: 20px;
+    
+    
+    }
+.four{
+    margin:30px ;
+    background-color: white;
+    width: 550px;
+    padding: 10px;
+    border-radius: 20px;
+    
+    
+    }
+
+.items{
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+}
+h4{
+    font-weight: 700;
+} */
+
+
+
+
+/* body{
+    text-align: center;
+    margin: 20px;
+}
+
+.hama{
+    
+    font-size: 40px;
+    margin: 20px;
+    cursor: pointer;
+   
+    
+} */
+
+
+
+
+/* .navb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    background-color: black;
+    
+}
+.navb a{
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+
+.stickyy{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+
+.image{
+position: relative;
+top: 800px;
+animation-duration: 2s;
+animation-name: annim;
+left: 270px;
+width: 800px;
+height: 500px;
+border-radius: 15px;
+animation-fill-mode: forwards;
+}
+@keyframes annim{
+    from{transform: translate(0,0);opacity: 0;}
+    to{transform: translate(0,20px);opacity: 1;}
+}
+
+.images{
+    display: none;
+}
+ */
+
+
+
+
+
+
+
+
+/* 
+.hama{
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.wadou{
+    background-color: bisque;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    border-radius: 10px;
+    top: 300px;
+    left: 100px;
+}
+
+.kama{
+    width: 200px;
+    transition: 2s ease;
+   
+}
+ */
+
+/* .one{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    animation-duration: 1s ;
+    animation-name: one;
+    animation-fill-mode: forwards;
+    
+}
+.two{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px; 
+    position: relative;
+    left: 800px;
+animation-duration: 1s ;
+animation-name: two;
+animation-fill-mode: forwards;
+
+}
+.container{
+    position: relative;
+    top: 800px;
+}
+
+
+
+
+
+@keyframes one {
+    from {transform: translate(-50,0);opacity: 0;}
+    to{transform: translate(100px,0);opacity: 1;}
+}
+
+@keyframes two {
+    from {transform: translate(0,0);opacity: 0;}
+    to{transform: translate(0,-150px);opacity: 1;}
+}
+
+.hid{
+    display: none;
+}
+.hidee{
+    display: none;
+} */
+
+
+/* 
+.nums{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
+
+.nums .num{
+    margin: 90px;
+    font-size: 40px;
+    font-weight: 700;
+    color: cornflowerblue;
+}
+ */
+/* ************************************************************************************************ */
+/* 
+body{
+    background-color: #ccc;
+}
+.cruds{
+    text-align: center;
+}
+.cruds h2{
+    font-weight: 700;
+    color: white;
+}
+.cruds p{
+    font-weight: 600;
+    margin: 20px;
+    color: white;
+}
+
+.inputs{
+    margin-top: 100px;
+
+}
+
+input[type="text"]{
+    width: 70%;
+    background-color:#807f7f ;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+input[type="text"]::placeholder{
+    color: rgb(19, 18, 18);
+}
+
+input[type="text"]:focus{
+    outline: none;
+}
+
+.othersinputs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 800px;
+    margin-left: 170px;
+}
+input[type="number"]{
+    background-color:#807f7f ;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-right: 10px;
+    width: 92px;
+}
+
+
+input[type="number"]::placeholder{
+    color: rgb(19, 18, 18);
+}
+
+small::before{
+    content: "Total : ";
+
+
+}
+small{
+    background-color: rgb(131, 6, 6);
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+input[type="submit"]{
+    background-color: rgb(53, 4, 100);
+    width: 950px;
+    height: 40px;
+    color: white;
+    font-weight: 600;
+    margin-left: 170px;
+    border: none;
+    border-radius:10px ;
+    transition: 1s ease;
+ 
+}
+input[type="submit"]:hover{
+    background-color: rgb(123, 12, 228);
+}
+.two{
+    margin: 10px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+table th{
+    text-transform: uppercase;
+}
+th,td{
+   padding: 5px; 
+}
+
+
+#update{
+    border: none;
+    background-color:rgb(123, 12, 228) ;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+.uu{
+    background-color: green;
+    color: white;
+}
+
+ */
+/* *********************************************************************************************** */
+
+
+
+/* 
+body{background-color: black;}
+
+
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.images img{
+    width: 200px;
+    margin-right: 2.5px;
+    cursor: pointer;
+}
+.principal img{
+    width: 500px;
+    margin-left: 40px;
+}
+
+
+.hidden{
+    display: none;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **************************************************************************************************************** */
+
+/* .iii{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.userr{
+ width: 400px;
+ background-color: white;
+ margin: 20px;
+ padding-left: 40px;
+ padding-top: 10px;
+ border-radius: 20px;
+ cursor: pointer
+}
+
+.hihi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.texts{
+    background-color: #d6cfcf;
+    width: 800px;
+}
+
+.one{
+    background-color: white;
+    margin: 20px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.hama{
+    outline: 5px solid #ffd20b;
+} */
+
+
+
+
+/* .kaik{
+    visibility: visible;
+    color: rebeccapurple;
+}
+
+
+.hy{
+    visibility: hidden;
+} */
+
+/* ********************************************************************************************************* */
+
+
+
+
+
+
+
+/* body{
+    background-color: cornflowerblue;
+}
+
+h1{
+    font-weight: 700;
+    color: white;
+   
+}
+
+hr{
+    color: white;
+}
+
+h5{
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.one{
+    margin: 30px;
+    background-color: white;
+    padding: 20px;
+
+}
+
+
+select{
+    margin-left: 200px;
+} */
+
+/* **************************************************************************************** */
+
+/* section{
+    background-color: rgba(0, 0, 0, 0.959);
+    padding: 30px;
+    width: 600px;
+    border-radius: 10px;
+}
+input[type="text"]{
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 450px;
+    background-color: #5f5a5a28;
+    margin: 10px;
+    border: none;
+}
+
+.icon{
+    padding: 10px;
+    border-radius: 50%;
+    color: rgb(126, 125, 125);
+    background-color: #5f5a5a28;
+
+}
+
+h4,h6,h2{
+    color: white;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.icontwo{
+    color: rgb(187, 181, 181);
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+span{
+    color: white;
+}
+.wether{
+    display: flex;
+}
+.sky{
+    display: flex;
+    align-items: center;
+}
+button{
+    background: none;
+    border: none;
+} */
+/* ******************************************************************************************** */
+
+/* 
+
+
+
+
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    margin-left: 200px;margin-top: 40px;
+    
+
+}
+h3{
+margin-bottom: 30px;
+font-weight: 700;
+}
+
+label{
+    font-weight: 600;
+
+}
+
+input[type="text"],input[type="passwoard"]{
+padding: 10px;
+border-radius: 10px;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    font-weight: 600;
+} */
+
+
+/* <!-- ***************************************************************************************************************************************** --> */
+
+
+body{
+    background-color: #ebebeb;
+}
+
+
+.container{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10,10,20 black;
+
+}
+.one{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.one img{
+    margin-right: 10px;
+}
+
+
+.card{
+  border: none;
+  
+}
+.card h6{
+    color: #464646;
+    margin: 10px;
+}
+
+
+.pcoun span{
+font-weight: 600;
+visibility: visible;
+}
+
+.alert{
+    width: 500px;
+    text-align: center;
+    margin-left: 200px;
+}
+.alertt{
+    width: 500px;
+    position: fixed;
+    bottom: 50px;
+    right: 200px;
+    z-index: 1000;
+
+}
+
+
+
+
+
+
+
+
+
+
+.postssss{
+    font-size: 30px;
+    color: white;
+    background-color: cadetblue;
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.hiden{
+    display: none;
+}
+
+
+/* <!-- ***************************************************************************************************************************************** --> */
+
+
+/* .produits{ */
+    /* margin: 60px;
+    cursor: pointer;
+    padding: 15px; 
+}
+
+.produits:hover{
+    border: 2px solid black;
+}
+
+.imaga{
+    width: 350px;
+    height: 265px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.imaga img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+.produits img{
+    transition: 1s ease;
+    width: 400px;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produits button{
+    border: none;
+    background-color: #ccc;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.icon{
+    color: #837d7d;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 650px;
+
+}
+
+span{
+    position: absolute;
+    
+}
+
+.cards{
+    width: 380px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #ebebeb;
+}
+
+.cards h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(92, 92, 92);  
+}
+
+.icona{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color:rgb(92, 92, 92); 
+    cursor: pointer;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.products img{
+    width: 120px;
+    margin: 10px;
+}
+
+.number{
+    width: 40px;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.icond{
+    margin-left:120px ;
+    color: rgb(255, 68, 68);
+    cursor: pointer;
+}
+
+.price , .titre{
+    font-weight: 600;
+}
+
+.hama{
+    float: right;
+    margin-right: 20px;
+}
+
+.b{
+    background-color: #383636;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+    width: 100%;
+    border: none;
+}
+
+.hidd{
+    display: none;
+}
+
+
+.cards{
+    animation-name: li;
+    animation-duration: 1s;
+
+}
+
+@keyframes li {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+ */
+
+
+
+
+
+
+

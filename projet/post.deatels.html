@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap</title>
+<link rel="stylesheet" href="../css/all.min.css">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/bootstrap.min.css.map">
+<!-- <link rel="stylesheet" href="style.css"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<style>
+    .hidden{
+        display: none;
+    }
+</style>
+<body>
+
+
+    <div id="liveAlertPlaceholder" class="alerts show fade"></div>
+    <div id="logoutalert" class="alerts show fade"></div>
+
+
+
+    <div class="container ">
+     
+        <nav class="navbar navbar-expand-lg  shadow rounded pt-5 " style="margin-bottom: 10px;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" id="home">Tarmeez</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" onclick="profileClicked()" style="cursor: pointer;">Profile</a>
+                  </li>
+                </ul>
+
+                <div  id="logged-in-div" class="d-flex w-100 justify-content-end" >
+
+                    <button id="login-btn" type="button" class="btn btn-success mx-2"  data-bs-toggle="modal" data-bs-target="#login-modal" >Login</button>
+                    <button id="register-btn" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#register-modal" >Register</button>
+  
+                  </div>
+
+
+                  <div   class="d-flex w-100 justify-content-end align-items-center" >
+                    <img id="nav-user-image" src="u.jpg" alt="" class="rounded-circle" style="width: 40px; height: 40px;">
+                    <b id="nav-username">
+                      @Yarob@gmail.com
+                    </b>
+                    <button onclick="logout()" id="logout-btn" type="button" class="btn btn-danger mx-2"  data-bs-toggle="modal"  >Log Out</button>
+                    
+        
+                </div>
+        
+               
+            </div>
+            </div>
+          </nav>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="login-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Username:</label>
+              <input type="text" class="form-control" id="username-input">
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">Passwoard:</label>
+              <input type="password" class="form-control" id="password-input">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="loginBtnClicked()">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="register-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Register A New User</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Profile Image :</label>
+              <input type="file" class="form-control" id="register-image-input">
+            </div>
+
+
+            <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Name:</label>
+                <input type="text" class="form-control" id="register-name-input">
+              </div>
+
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Username:</label>
+              <input type="text" class="form-control" id="register-username-input">
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">Passwoard:</label>
+              <input type="password" class="form-control" id="register-passwoard-input">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="RegisterBtnClicked()">Register</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="container" style="height: 10000px;">
+
+<div class="row mt-5">
+    <div class="col-9">
+   <h1>
+      <span id="username-span">Yarob's</span>
+      Post
+   </h1>
+</div>
+</div>
+
+<div class="all-card" id="all">
+    <div class="card shadow ">
+        <div class="card-header">
+          <img class="rounded-circle border border-3" src="u.jpg" alt=""  style="width:55px ; height: 55px;">
+          <b>Mouhamed@gmail.com</b> 
+        </div>
+        <div class="card-body">
+            <img class="w-100" src="22.jpg" alt="">
+    
+            <h6 style="color: rgb(193, 193,193 );" class="mt-1">
+                2 min ago
+            </h6>
+    
+            <h5>
+                Hello World
+            </h5>
+    
+            <p>
+                Mouhamed besh iffarah darhom 
+            </p>
+            
+            <hr>
+    
+            <div>
+                <i class="fa-solid fa-pen"></i>
+                <span>
+                    (3)Commentaire
+                </span>
+            </div>
+    
+        </div>
+      </div>
+</div>
+
+<!-- ============================Post ROW ======================================================== -->
+
+<!-- =============================Post Row ====================================================== -->
+<!-- ====COMMENTS============ -->
+
+<!-- <div class="all-comments" id="commentsss" >
+
+
+
+</div> -->
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="post.deatels.js"></script>
+<script src="mainLogique.js"></script>
+</body>
+</html> 

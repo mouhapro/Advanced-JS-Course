@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap</title>
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/bootstrap.min.css.map">
+<link rel="stylesheet" href="style7.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+<style>
+    .number-info{
+        color: rgb(172, 172,172 );
+        font-weight: 100;
+    }
+
+    .number-info span{
+
+         font-size: 50px;
+         color: black;
+        
+    }
+
+    .user-main-info{
+        font-weight: 500;
+        font-size:17px ;
+    }
+    
+
+</style>
+
+<body>
+
+
+
+
+
+
+<!-- ===========================MODALS====================================================================================================== -->
+
+    <!-- ================================LOGIN MODALS================================================================================================ -->
+
+
+    <div class="modal fade" id="login-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Username:</label>
+                  <input type="text" class="form-control" id="username-input">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Passwoard:</label>
+                  <input type="password" class="form-control" id="password-input">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" onclick="loginBtnClicked()">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+      <!-- ================================================LOGIN MODALS=================================================== -->
+    
+    
+    <!-- =============================================MODALS======================================== -->
+    
+    <!-- ====================================REGISTRE MODAL========================================== -->
+    
+    <div class="modal fade" id="register-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Register A New User</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Profile Image :</label>
+                  <input type="file" class="form-control" id="register-image-input">
+                </div>
+    
+    
+                <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Name:</label>
+                    <input type="text" class="form-control" id="register-name-input">
+                  </div>
+    
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Username:</label>
+                  <input type="text" class="form-control" id="register-username-input">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Passwoard:</label>
+                  <input type="password" class="form-control" id="register-passwoard-input">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" onclick="RegisterBtnClicked()">Register</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <!-- ====================================REGISTRE MODAL========================================== -->
+    
+    
+        <div class="container ">
+         
+            <nav class="navbar navbar-expand-lg  shadow rounded pt-5 " style="margin-bottom: 10px;">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index7.html">Tarmeez</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index7.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" onclick="profileClicked()" style="cursor: pointer;">Profile</a>
+                        </li>
+                      </ul>
+    
+                    <div  id="logged-in-div" class="d-flex w-100 justify-content-end" >
+    
+                        <button id="login-btn" type="button" class="btn btn-success mx-2"  data-bs-toggle="modal" data-bs-target="#login-modal" >Login</button>
+                        <button id="register-btn" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#register-modal" >Register</button>
+      
+                      </div>
+    
+    
+                      <div   class="d-flex w-100 justify-content-end align-items-center" >
+                        <img id="nav-user-image" src="u.jpg" alt="" class="rounded-circle" style="width: 40px; height: 40px;">
+                        <b id="nav-username">
+                          @Yarob@gmail.com
+                        </b>
+                        <button onclick="logout()" id="logout-btn" type="button" class="btn btn-danger mx-2"  data-bs-toggle="modal"  >Log Out</button>
+                        
+            
+                    </div>
+            
+                   
+                </div>
+                </div>
+              </nav>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- =====================Navigation Bar ==========================================                -->
+    
+    
+    
+    
+    
+    
+    <!-- ================================Main content bar ================================== -->
+    
+    
+    <!-- =============================Header================================= -->
+
+    
+    <!-- ==================================Posts========================================= -->
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- ========================POST MODAL======================================================================= -->
+     
+    
+    <div class="modal fade" id="post-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="Post-Modal-Title">Create A New Post</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              
+              <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Title :</label>
+                  <input type="text" class="form-control" id="post-title-input">
+                <input type="hidden" id="post-id" value="">
+                </div>
+    
+                <div class="mb-3">
+                  <textarea name="" id="post-body-input" style="width: 100%;height: 100px;border-color: gray;border-radius: 10px;resize: none; ">
+                
+                </textarea>
+              </div>
+                  
+    
+              <div class="mb-3">
+               
+                  <label for="recipient-name" class="col-form-label">Image :</label>
+                  <input type="file" class="form-control" id="post-image-input">
+           
+            </div>
+    
+    
+    
+    
+            </form>
+    
+    
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button id="post-modal-submit-button" type="button" class="btn btn-primary" onclick="createNewpostclicked()">Create</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <!-- ===============================POST MODAL========================================================================== -->
+    
+    
+    
+
+    
+    
+    <!-- data-bs-toggle="modal" data-bs-target="#post-modal" -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- ====================== MODAL VERIFICATION ================================================ -->
+    
+    
+    
+    <div class="modal fade" id="delete-post-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="Post-Modal-Title">Are you sure you want to delete the post ?
+              <span id="delete-post-title"></span> 
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <input type="hidden" id="delete-post-id-input" value="">
+          </div>
+    
+          
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button id="post-modal-submit-button" type="button" class="btn btn-danger" onclick="confirmPostDelete()">Yes delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- ====================== MODAL VERIFICATION ================================================ -->
+    
+    
+    
+    
+
+
+
+<!-- ============================ALERTS=============================================================================== -->
+
+<div id="liveAlertPlaceholder" class="alerts show fade"></div>
+<div id="logoutalert" class="alerts show fade"></div>
+
+<!-- ==============================================ALERTS======================================================================================= -->
+    
+
+
+
+
+
+
+
+<div class="container">
+    
+    
+    
+        <div class="card shadow ">
+
+
+            <div class="card-body">
+                <div class="row">
+
+                <!-- ==================USER IMAGE COL============= -->
+                <div class="col-2">
+                <img id="header-image" src="u.jpg" alt="" style="width: 120px;height: 120px;border-radius: 50%;">
+                </div>
+                <!-- ==================USER IMAGE COL============= -->
+                
+
+
+                <!-- ======================USERNAME EMAIL NAME========= -->
+                 
+                <div id="main-info" class="col-4 d-flex flex-column justify-content-evenly" style="font-weight: 700;">
+                   
+                    <div class="user-main-info" id="main-info-email">
+                        yarohm@gmail.com
+                    </div>
+                   
+                    <div class="user-main-info" id="main-info-name">
+                        Yarob
+                    </div>
+
+                    <div class="user-main-info" id="main-info-username" >
+                        Yarob99
+                    </div>
+
+                </div>
+
+
+                <!-- ======================USERNAME EMAIL NAME========= -->
+
+
+
+
+
+
+                <!-- =============================POST COMMENTS COUNT=========================== -->
+
+                <div class="col-4 d-flex flex-column justify-content-evenly ">
+
+                    <div class="number-info">
+                        <span id="posts-count">13</span> Posts
+                    </div>
+                
+                    <div class="number-info">
+                        <span id="comments-count">20</span> Comments
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+                <!-- =============================POST COMMENTS COUNT=========================== -->
+
+
+
+                </div>
+                
+
+
+            </div>
+          </div>
+        
+
+          <!-- POSTS TITLE  -->
+
+          <div class="row mt-5">
+            <h1><span id="name-post">Yarob's</span>  posts</h1>
+          </div>
+
+          <!-- POST TITLE -->
+    
+
+          <div class="row" id="user-posts">
+       
+           <!-- ============POST===================== -->
+
+
+     
+
+
+           <!-- ============POST===================== -->
+        
+
+
+
+          </div>
+        
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="mainLogique.js"></script>
+<script src="profile.js"></script>
+</body>
+</html> 
